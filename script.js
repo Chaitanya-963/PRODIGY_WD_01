@@ -22,5 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
             this.style.backgroundColor = "";
             this.style.color = "";
         });
+        
     }
 });
