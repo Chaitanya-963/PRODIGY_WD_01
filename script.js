@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var navLinks = navbar.getElementsByTagName("a");
     for (var i = 0; i < navLinks.length; i++) {
         navLinks[i].addEventListener("mouseenter", function() {
-            this.style.backgroundColor = "#555";
-            this.style.color = "#fff";
+            this.style.backgroundColor = "#89473c";
+            this.style.color = "#ffffff";
         });
 
         navLinks[i].addEventListener("mouseleave", function() {
