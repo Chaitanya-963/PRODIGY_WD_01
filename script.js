@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Change style on scroll
     window.addEventListener("scroll", function() {
-        if (window.scrollY > 50) {
+        if (window.scrollY > 70) {
             navbar.style.backgroundColor = "#555";
         } else {
             navbar.style.backgroundColor = "#333";
